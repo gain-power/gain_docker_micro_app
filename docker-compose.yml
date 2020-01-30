@@ -1,0 +1,10 @@
+version: "3.7"
+services:
+  web:
+    image: isoken26/web_container:latest
+    ports:
+      - 3000
+  nginx:
+    image: tetora1053/proxy:1.0.0
+    ports:
+      - 80:80
