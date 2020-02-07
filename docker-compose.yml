@@ -4,7 +4,7 @@ services:
     image: isoken26/web_container:latest
     ports:
       - 3000
-  nginx:
-    image: tetora1053/proxy:1.0.0
+  proxy:
+    image: tetora1053/proxy:latest
     ports:
       - 80:80
